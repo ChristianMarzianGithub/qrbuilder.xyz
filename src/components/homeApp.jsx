@@ -1,4 +1,4 @@
-import { Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import QRComponent from './qrComponent.jsx'
 export default function HomeApp() {
   return (
@@ -8,8 +8,8 @@ export default function HomeApp() {
             <div className='footer'>
             <ul>
                 <li> &copy; {new Date().getFullYear()} qrbuilder.xyz. All rights reserved.</li>
-                <li><a href="/impressum">Impressum</a></li>
-                <li><a href="/datenschutz">Datenschutz</a></li>
+                <li><Link to="/impressum">Impressum</Link></li>
+                <li><Link to="/datenschutz">Datenschutz</Link></li>
             </ul>
             </div>
         </div>

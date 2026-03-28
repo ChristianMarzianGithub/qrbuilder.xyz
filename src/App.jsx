@@ -8,11 +8,7 @@ function App() {
   return (
     <Routes>
       {/* Home page */}
-      <Route
-        path="/"
-        element={<HomeApp />
-}
-      />
+      <Route path="/" element={<HomeApp />} />
 
       {/* Impressum page */}
       <Route path="/impressum" element={<Impressum />}/>
